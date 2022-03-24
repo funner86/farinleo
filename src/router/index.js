@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/pages/Home'
+// import Home from '@/pages/Home'
 import About from '@/pages/About'
 import Contact from '@/pages/ContactUs'
 import Category from '@/pages/JobCategory'
@@ -10,6 +10,7 @@ import JobSearch from '@/pages/JobSearch'
 import JobSingle from '@/pages/JobSingle'
 import PricingPlan from '@/pages/PricingPlan'
 import Elements from '@/pages/Elements'
+import Home from '@/view/home'
 
 Vue.use(Router)
 
