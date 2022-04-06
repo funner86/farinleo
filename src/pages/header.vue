@@ -110,7 +110,7 @@
       <div>
         <p style="margin: 100px 0 0 10px">交通路线</p>
       </div>
-      <div></div>
+      <div @click="ceshi"></div>
       <div></div>
     </div>
   </header>
@@ -118,20 +118,29 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    ceshi() {
+      window.open("http://www.baidu.com");
+    },
+  },
+};
 </script>
 
 <style>
+.top-background {
+  display: flex;
+  flex-direction: column;
+}
 .top-background .ht-background {
-  width: 3000px;
   margin-left: 15px;
   height: 220px;
   background: url(../../static/assets/images/topbc.png) no-repeat;
-  background-size: 100% 200px;
+  background-size: cover;
 }
 .top-background .top-container {
   position: relative;
-  top: 42px;
+  top: 60px;
   float: right;
   display: flex;
 }

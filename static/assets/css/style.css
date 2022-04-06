@@ -127,7 +127,6 @@ input:focus,textarea:focus {
 }
 .main-menu ul {
 	float:right;
-	
 }
 @media (min-width:768px) and (max-width:991.98px) {
 	.main-menu ul {
@@ -168,7 +167,7 @@ input:focus,textarea:focus {
 .main-menu ul li {
 	display:inline;
 	position:relative;
-	margin-right: 50px;
+	margin-right: 45px;
 }
 @media (min-width:768px) and (max-width:991.98px) {
 	.main-menu ul li {
@@ -849,6 +848,7 @@ input:focus,textarea:focus {
 }
 .footer-area {
 	color:#fff;
+	height: 470px;
 	background:#88000a}
 .footer-area h3 {
 	color:#fff}
@@ -881,11 +881,11 @@ input:focus,textarea:focus {
 	margin-left:0;
 	margin-top:30px}
 }
-.footer-area img {
+/* .footer-area img {
 	width:55px;
 	height:55px;
 	margin-right:5px;
-	margin-bottom:10px}
+	margin-bottom:10px} */
 .footer-copyright {
 	margin-top:70px}
 .footer-copyright .color {
@@ -922,7 +922,7 @@ input:focus,textarea:focus {
 	color:#fff;
 	background:#ff9902}
 .header-area{
-	height: 920px;
+	height: 940px;
 	overflow: hidden;
 }
 .header-area.single-page {
@@ -945,9 +945,9 @@ input:focus,textarea:focus {
 	z-index:-1}
 .header-area.single-page .page-title {
 	position: relative;
-	top: 500px;
+	top: 520px;
 	height: 200px;
-	width: 1900px;
+	width: 1903px;
 	padding:0;
 	background:url(../images/hb-background.png);
 	background-size:100%;

@@ -10,7 +10,11 @@ import JobSearch from '@/pages/JobSearch'
 import JobSingle from '@/pages/JobSingle'
 import PricingPlan from '@/pages/PricingPlan'
 import Elements from '@/pages/Elements'
+import News from '@/pages/news'
+import Activity from '@/pages/activity'
+import Chenlie from '@/pages/chenlie'
 import Home from '@/view/home'
+
 
 Vue.use(Router)
 
@@ -65,6 +69,21 @@ export default new Router({
       path: '/elements',
       name: 'elements',
       component: Elements
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: News
+    },
+    {
+      path: '/chenlie',
+      name: 'chenlie',
+      component: Chenlie
+    },
+    {
+      path: '/activity',
+      name: 'activity',
+      component: Activity
     }
   ]
 })
